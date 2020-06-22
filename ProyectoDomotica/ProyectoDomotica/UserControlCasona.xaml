@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="ProyectoDomotica.UserControlCasona"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProyectoDomotica"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             Height="auto" Width="auto">
+    <Grid>
+        <materialDesign:TransitioningContent x:Name="TransitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" Height="300" Background="#FFF3F3F3" Margin="10">
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <StackPanel Width="200">
+                        <TextBlock Margin="10" FontFamily="Arial Black" FontSize="12" Text="Salon 1" Foreground="Black"/>
+                        <Image Source="Assets/Sin título.png" Width="200" Height="150" Stretch="UniformToFill" />
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <Button Width="100" Background="Green" BorderBrush="Black" Content="Encender" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                            <Button Width="100" Background="#d92027" BorderBrush="Black" Content="Apagar" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="1" Height="300" Background="#FFF3F3F3" Margin="10">
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <StackPanel Width="200">
+                        <TextBlock Margin="10" FontFamily="Arial Black" FontSize="12" Text="Salon 2" Foreground="black"/>
+                        <Image Source="Assets/Sin título.png" Width="200" Height="150" Stretch="UniformToFill" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                <Button Width="100" Background="Green" BorderBrush="Black" Content="Encender" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                                <Button Width="100" Background="#d92027" BorderBrush="Black" Content="Apagar" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+                <Grid Grid.Column="2" Height="300" Background="#FFF3F3F3" Margin="10">
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="20" Color="#FFDEDEDE" ShadowDepth="1"/>
+                    </Grid.Effect>
+
+                    <StackPanel Width="200">
+                        <TextBlock Margin="10" FontFamily="Arial black" FontSize="12" Text="Salon 3" Foreground="Black"/>
+                        <Image Source="Assets/Sin título.png" Width="200" Height="150" Stretch="UniformToFill" />
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                            <Button Width="100" Background="Green" BorderBrush="Black" Content="Encender" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                            <Button Width="100" Background="#d92027" BorderBrush="Black" Content="Apagar" FontFamily="Champagne &amp; Limousines" Margin="10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </materialDesign:TransitioningContent>
+    </Grid>
+</UserControl>

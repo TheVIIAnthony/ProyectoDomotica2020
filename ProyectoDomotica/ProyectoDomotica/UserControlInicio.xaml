@@ -9,7 +9,7 @@
              Height="auto" Width="auto">
     <Grid>
         <materialDesign:TransitioningContent x:Name="TransitioningContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
-            
+            <TextBlock Text="Inicio"/>
         </materialDesign:TransitioningContent>
     </Grid>
 </UserControl>

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ProyectoDomotica
 {
     /// <summary>
-    /// Lógica de interacción para Piso1.xaml
+    /// Lógica de interacción para UserControlCasona.xaml
     /// </summary>
-    public partial class Piso1 : UserControl
+    public partial class UserControlCasona : UserControl
     {
-        public Piso1()
+        public UserControlCasona()
         {
             InitializeComponent();
         }

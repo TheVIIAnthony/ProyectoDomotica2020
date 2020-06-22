@@ -22,5 +22,13 @@ C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotic
 C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\App.baml
 C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlInicio.g.cs
 C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlInicio.baml
-C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\Piso1.g.cs
-C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\Piso1.baml
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlAnexos.g.cs
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlCasona.g.cs
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso1.g.cs
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso2.g.cs
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso3.g.cs
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlAnexos.baml
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlCasona.baml
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso1.baml
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso2.baml
+C:\Users\Usuario\Documents\ProyectoVertical\ProyectoDomotica2020\ProyectoDomotica\ProyectoDomotica\obj\Debug\UserControlPiso3.baml

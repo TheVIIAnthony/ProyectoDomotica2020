@@ -63,11 +63,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Piso1.xaml.cs">
-      <DependentUpon>Piso1.xaml</DependentUpon>
+    <Compile Include="UserControlAnexos.xaml.cs">
+      <DependentUpon>UserControlAnexos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCasona.xaml.cs">
+      <DependentUpon>UserControlCasona.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControlInicio.xaml.cs">
       <DependentUpon>UserControlInicio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPiso1.xaml.cs">
+      <DependentUpon>UserControlPiso1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPiso2.xaml.cs">
+      <DependentUpon>UserControlPiso2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPiso3.xaml.cs">
+      <DependentUpon>UserControlPiso3.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -81,11 +93,27 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Piso1.xaml">
+    <Page Include="UserControlAnexos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlCasona.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlInicio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPiso1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPiso2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPiso3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
